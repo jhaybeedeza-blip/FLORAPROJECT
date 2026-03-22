@@ -1,0 +1,17 @@
+{
+  "css.lint.validProperties": [
+    "composes"
+  ],
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[django-html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "css.validate": false,
+  "files.exclude": {
+    "**/__pycache__": true
+  },
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true
+}

@@ -1,0 +1,76 @@
+# 🎵 How to Add Music - The Flora Project
+
+## EASY WAY (2 seconds) ⚡
+
+1. **Drop your audio file here:** `static/music/`
+2. **Reload the website** (F5)
+3. **Done!** Music appears in dropdown automatically
+
+That's it! No editing config files needed.
+
+---
+
+## OPTIONAL: Organize by Category (10 seconds)
+
+If you want to organize music by mood/category:
+
+### Step 1: Edit `categories.json`
+```json
+{
+  "Song Name.mp3": "mood",
+  "Another Song.mp3": "mood"
+}
+```
+
+### Step 2: Example
+```json
+{
+  "Jeff Buckley - Lover, You Should've Come Over.mp3": "sobbing",
+  "Mitski - My Love Mine All Mine.mp3": "longing",
+  "20 Min.mp3": "ambient",
+  "YOUR NEW SONG.mp3": "romantic"
+}
+```
+
+---
+
+## Supported Formats
+✅ MP3 (best)
+✅ WAV
+✅ OGG  
+✅ M4A
+✅ FLAC
+✅ AAC
+
+---
+
+## Example Categories
+- `sobbing` - Sad/heartfelt
+- `longing` - Missing someone  
+- `ambient` - Background/chill
+- `romantic` - Love songs
+- `energetic` - Upbeat
+- `nostalgic` - Memories
+- `healing` - Moving on
+- **Make your own!** (any text works)
+
+---
+
+## Questions?
+
+**Q: Can I just drop files without categories.json?**  
+A: Yes! Files appear in dropdown as individual items.
+
+**Q: Do I need to restart Django?**  
+A: No! Just reload the website (F5).
+
+**Q: Can files be in multiple categories?**  
+A: Not in categories.json, but you can add duplicates with different names.
+
+**Q: What if categories.json breaks?**  
+A: All files still appear - categorization just won't work.
+
+---
+
+**Summary:** Just drop audio files in this folder. That's all! 🎉
+
