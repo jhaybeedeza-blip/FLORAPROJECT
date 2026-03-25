@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-m!y(bgex2!vph0dlqxh=m!xs2r+3sx*+4=qqsg)g9m6kqb9quj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['wallybayolajb.onrender.com', 'www.wallybayolajb.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['floraproject.onrender.com', 'floraproject.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
